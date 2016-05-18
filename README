@@ -1,0 +1,7 @@
+To run the server:
+	-enter python server.py into console
+	-navigate to localhost:5000 in a browser
+	-the page will list system information in plaintext. The system information does not update automatically. Rather it is the information at the moment of request. It lists the CPU's percentage use, the memory percentage use, and a list of processes (process ID and process name), where the CPU percentage use is non-zero, in ascending order of percentage. 
+	-if you refresh the browser page it updates the information
+	-to stop the server, stop it via the command line (ctrl-c)
+The requirements.txt file contains the packages/libraries installed on the machine where it was developed. Necessary non-standard packages/libraries are Flask and psutil.
