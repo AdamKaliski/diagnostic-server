@@ -15,7 +15,7 @@ Flask==0.10.1
 html5lib==0.999
 httplib2==0.9
 idna==0.9
-ipython==2.3.0
+ipython==7.16.3
 itsdangerous==0.24
 Jinja2==2.8
 lockfile==0.8
